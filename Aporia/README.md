@@ -3,7 +3,7 @@
 ## TL;DR
 
 1. Copy `defaultProfile_original.xml` to `defaultProfile.xml`.
-314159. Edit `<actionmap name="player">` stanza.
+314159. Edit keybinds.
 5. Replace `AporiaData/GameData.pak/Libs/Config/defaultConfig.xml` with edited file (using 7z to edit `GameData.pak`).
 
 ## Explanatory Bit
@@ -20,16 +20,17 @@ and also
 ## What I Changed
 
 My edited version which is named `defaultProfile.xml` changes:
-* movement `wasd` &rarr; `esdf`
+* movement `wasd` &rarr; `esdf` including player and vehicle stanzas
 * map `m` &rarr; `x`
 * project `f` &rarr; `w`
+* zoom toggle `v` &rarr; `z`
 
 ## Editing
 
 I found it to be as readable as XML ever is using vscode.  If you're not using vscode and don't already know how to deal with XML, you can use a text editor to edit the file (if less conveniently).
 
 The part of the file you'll need to edit starts with 
-`<actionmap name="player">` and ends with the next instance of `</actionmap>`.  Look for the `keyboard="w"` bits and replace the key in the double quotes.
+`<actionmap name="player">` and ends with the next instance of `</actionmap>`.  Look for the `keyboard="w"` bits and replace the key in the double quotes.  If you're changing movement keys, you'll also want to check similar stanzas for `name="vehicle_general"` and `name="vehicle_driver"`.
 
 Once you've edited the controls to your liking, you'll need to replace the game's file with your edited copy.  It can be found at:
 

@@ -101,11 +101,11 @@
 			<ps4pad input="pad_square" onHold="1" />
 		</action>
 		<action name="light" onPress="1" keyboard="mouse2" xboxpad="xi_triggerl_btn"/>
-		<action name="toggleMap" onPress="1" keyboard="m" xboxpad="xi_y"/>
-		<action name="moveleft" onPress="1" onRelease="1" retriggerable="1" keyboard="a"/>
-		<action name="moveright" onPress="1" onRelease="1" retriggerable="1" keyboard="d"/>
-		<action name="moveforward" onPress="1" onRelease="1" retriggerable="1" keyboard="w"/>
-		<action name="moveback" onPress="1" onRelease="1" retriggerable="1" keyboard="s"/>
+		<action name="toggleMap" onPress="1" keyboard="x" xboxpad="xi_y"/>
+		<action name="moveleft" onPress="1" onRelease="1" retriggerable="1" keyboard="s"/>
+		<action name="moveright" onPress="1" onRelease="1" retriggerable="1" keyboard="f"/>
+		<action name="moveforward" onPress="1" onRelease="1" retriggerable="1" keyboard="e"/>
+		<action name="moveback" onPress="1" onRelease="1" retriggerable="1" keyboard="d"/>
 		<action name="jump" onPress="1" onRelease="0" keyboard="space" xboxpad="xi_a" ps4pad="pad_cross"/>
 		<action name="crouch" onPress="1" onRelease="1" retriggerable="1" keyboard="lctrl" xboxpad="xi_b" ps4pad="pad_circle"/>
 		<action name="sprint" onPress="1" onRelease="1" retriggerable="1">
@@ -120,13 +120,13 @@
 			<xboxpad input="xi_a" onPress="1" />
 		</action>
 
-		<action name="togglelight" onRelease="1" keyboard="f" xboxpad="xi_shoulderl"/>
+		<action name="togglelight" onRelease="1" keyboard="w" xboxpad="xi_shoulderl"/>
 		<action name="nextprojection" onPress="1" keyboard="mwheel_up" xboxpad="xi_dpad_up"/>
 		<action name="prevprojection" onPress="1" keyboard="mwheel_down" xboxpad="xi_dpad_down"/>
 		<action name="rotateyaw" keyboard="maxis_x" />
 		<action name="rotatepitch" keyboard="maxis_y" />
 
-		<action name="zoom_toggle" onPress="1" keyboard="v" xboxpad="xi_thumbr" ps4pad="pad_r3"/>
+		<action name="zoom_toggle" onPress="1" keyboard="z" xboxpad="xi_thumbr" ps4pad="pad_r3"/>
 		<action name="zoom_in" onPress="1" keyboard="mwheel_up" />
 		<action name="zoom_out" onPress="1" keyboard="mwheel_down" />
 
@@ -151,16 +151,16 @@
 	</actionmap>
 
 	<actionmap name="vehicle_driver">
-		<action name="v_turnleft" onPress="1" onRelease="1" retriggerable="1" keyboard="a" />
-		<action name="v_turnright" onPress="1" onRelease="1" retriggerable="1" keyboard="d" />
+		<action name="v_turnleft" onPress="1" onRelease="1" retriggerable="1" keyboard="s" />
+		<action name="v_turnright" onPress="1" onRelease="1" retriggerable="1" keyboard="f" />
 		<action name="xi_v_movex" xboxpad="xi_thumblx" ps4pad="pad_sticklx"/>
 		<action name="xi_rotateyaw" xboxpad="xi_thumbrx" ps4pad="pad_stickrx"/> 
 		<action name="xi_rotatepitch" xboxpad="xi_thumbry" ps4pad="pad_stickry"/>
 		<action name="duck" onPress="1" onRelease="1" retriggerable="1" keyboard="lctrl" xboxpad="xi_b" ps4pad="pad_circle"/>
-		<action name="xi_v_accelerate" onPress="1" onRelease="1" retriggerable="1" keyboard="w" xboxpad="xi_triggerr" ps4pad="pad_r2"/>
+		<action name="xi_v_accelerate" onPress="1" onRelease="1" retriggerable="1" keyboard="e" xboxpad="xi_triggerr" ps4pad="pad_r2"/>
 		<action name="xi_v_deccelerate" onPress="1" onRelease="1" >
 			<keyboard>
-				<inputdata input="s" />
+				<inputdata input="d" />
 			</keyboard>
 			<xboxpad>
 			<inputdata input="xi_triggerl" /> 
@@ -169,7 +169,7 @@
 		
 		<action name="v_moveforward" onPress="1" onRelease="1" >
 			<keyboard>
-				<inputdata input="w" />
+				<inputdata input="e" />
 			</keyboard>
 			<xboxpad>
 				<inputdata input="xi_dpad_up" />
