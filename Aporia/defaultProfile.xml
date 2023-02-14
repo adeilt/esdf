@@ -107,7 +107,7 @@
 		<action name="moveforward" onPress="1" onRelease="1" retriggerable="1" keyboard="e"/>
 		<action name="moveback" onPress="1" onRelease="1" retriggerable="1" keyboard="d"/>
 		<action name="jump" onPress="1" onRelease="0" keyboard="space" xboxpad="xi_a" ps4pad="pad_cross"/>
-		<action name="crouch" onPress="1" onRelease="1" retriggerable="1" keyboard="lctrl" xboxpad="xi_b" ps4pad="pad_circle"/>
+		<action name="crouch" onPress="1" onRelease="1" retriggerable="1" keyboard="capslock" xboxpad="xi_b" ps4pad="pad_circle"/>
 		<action name="sprint" onPress="1" onRelease="1" retriggerable="1">
 			<keyboard input="lshift" onPress="1" />
 			<xboxpad input="xi_thumbl" onPress="1" />

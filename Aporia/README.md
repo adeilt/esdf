@@ -24,6 +24,7 @@ My edited version which is named `defaultProfile.xml` changes:
 * map `m` &rarr; `x`
 * project `f` &rarr; `w`
 * zoom toggle `v` &rarr; `z`
+* crouch `ctrl` &rarr; `capslock`
 
 ## Editing
 
