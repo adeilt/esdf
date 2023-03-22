@@ -47,8 +47,8 @@ AxisMappings=(AxisName="PhotoMode_CameraMoveUpZ",Scale=1.000000,Key=Gamepad_Righ
 >    play with cursor (like the other ones of you that are also having problems with
 >    original setting to WASD I think ;)) and so it's Up, Down, Left, Right.
 
-I used those instructions to produce the Input.ini you can find here. The four
-sections at the end are what probably needs changing, and the final three
-sections are where I turned WASD into ESDF.
+I used those instructions to produce the `Input.ini` you can find here. The four
+sections separated by blank lines at the end of that file are what probably
+needs changing, and the final three sections are where I turned WASD into ESDF.
 
 The controls seem to be working as intended during brief in-game testing.
