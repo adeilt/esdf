@@ -1,61 +1,61 @@
 {
-    "Description": "Below are all editable actions in game. To change an action, change the KeyCode. Write out special keys such as 'Space'. Deleting this file will restore defaults.",
-    "ActionToKeyItems": [
-        {
-            "ActionName": "Move Forward",
-            "KeyCode": "W"
-        },
-        {
-            "ActionName": "Move Backward",
-            "KeyCode": "S"
-        },
-        {
-            "ActionName": "Move Left",
-            "KeyCode": "A"
-        },
-        {
-            "ActionName": "Move Right",
-            "KeyCode": "D"
-        },
-        {
-            "ActionName": "Sprint",
-            "KeyCode": "LeftShift"
-        },
-        {
-            "ActionName": "Rewind Time",
-            "KeyCode": "Q"
-        },
-        {
-            "ActionName": "Fast Forward Time",
-            "KeyCode": "E"
-        },
-        {
-            "ActionName": "Pause/Unpause/Mr. Soldier Jump",
-            "KeyCode": "Space"
-        },
-        {
-            "ActionName": "Rotate Left",
-            "KeyCode": "Z"
-        },
-        {
-            "ActionName": "Rotate Right",
-            "KeyCode": "C"
-        },
-        {
-            "ActionName": "Rotate Down",
-            "KeyCode": "X"
-        },
-        {
-            "ActionName": "Hold Block",
-            "KeyCode": "LeftAlt"
-        },
-        {
-            "ActionName": "Inspect/Aim/Exit Mr. Soldier",
-            "KeyCode": "F"
-        },
-        {
-            "ActionName": "Jump To Mr. Soldier",
-            "KeyCode": "R"
-        }
-    ]
+  "Description": "Below are all editable actions in game. To change an action, change the KeyCode. Write out special keys such as 'Space'. Deleting this file will restore defaults.",
+  "ActionToKeyItems": [
+    {
+      "ActionName": "Move Forward",
+      "KeyCode": "E"
+    },
+    {
+      "ActionName": "Move Backward",
+      "KeyCode": "D"
+    },
+    {
+      "ActionName": "Move Left",
+      "KeyCode": "S"
+    },
+    {
+      "ActionName": "Move Right",
+      "KeyCode": "F"
+    },
+    {
+      "ActionName": "Sprint",
+      "KeyCode": "LeftShift"
+    },
+    {
+      "ActionName": "Rewind Time",
+      "KeyCode": "W"
+    },
+    {
+      "ActionName": "Fast Forward Time",
+      "KeyCode": "R"
+    },
+    {
+      "ActionName": "Pause/Unpause/Mr. Soldier Jump",
+      "KeyCode": "Space"
+    },
+    {
+      "ActionName": "Rotate Left",
+      "KeyCode": "Q"
+    },
+    {
+      "ActionName": "Rotate Right",
+      "KeyCode": "T"
+    },
+    {
+      "ActionName": "Rotate Down",
+      "KeyCode": "C"
+    },
+    {
+      "ActionName": "Hold Block",
+      "KeyCode": "LeftAlt"
+    },
+    {
+      "ActionName": "Inspect/Aim/Exit Mr. Soldier",
+      "KeyCode": "A"
+    },
+    {
+      "ActionName": "Jump To Mr. Soldier",
+      "KeyCode": "G"
+    }
+  ]
 }
