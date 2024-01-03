@@ -23,11 +23,11 @@
     },
     {
       "ActionName": "Rewind Time",
-      "KeyCode": "W"
+      "KeyCode": "Q"
     },
     {
       "ActionName": "Fast Forward Time",
-      "KeyCode": "R"
+      "KeyCode": "T"
     },
     {
       "ActionName": "Pause/Unpause/Mr. Soldier Jump",
@@ -35,11 +35,11 @@
     },
     {
       "ActionName": "Rotate Left",
-      "KeyCode": "Q"
+      "KeyCode": "W"
     },
     {
       "ActionName": "Rotate Right",
-      "KeyCode": "T"
+      "KeyCode": "R"
     },
     {
       "ActionName": "Rotate Down",
